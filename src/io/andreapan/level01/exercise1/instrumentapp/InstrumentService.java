@@ -42,7 +42,7 @@ public class InstrumentService {
 
         for (Instrument instrument : instruments) {
 
-            message += instrument.play();
+            message += instrument.play() + "\n";
 
         }
 
@@ -56,7 +56,7 @@ public class InstrumentService {
 
         for (Instrument instrument : instruments) {
 
-            message += instrument.toString();
+            message += instrument.toString() + "\n\n";
 
         }
 

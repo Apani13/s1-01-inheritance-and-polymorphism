@@ -11,17 +11,22 @@ public class InstrumentAppRunner {
         InstrumentService instrumentService = new InstrumentService();
 
 
-        message = "Class loaded through instanced object:\n";
+        message = "CLASS LOADED TRHOUGH INSTANCED OBJECT\n";
 
         instrumentService.createInstrument();
 
-        message += "\nInstruments playing: " + instrumentService.playInstrument() + "\n" +
-        "\nList of instruments: " + instrumentService.printInstruments();
+        message += "\nInstruments playing:\n\n"
+                + instrumentService.playInstrument()
+                + "\n" + "\nList of instruments:\n\n"
+                + instrumentService.printInstruments();
 
 
 
-        message += "Class loaded through accessing a static member:\n" + "\n1." +
-                Instrument.getMoneyBackGuarantee() + "\n\n2." + Instrument.class;
+        message += "CLASS LOADED THROUGH ACCESSING A STATIC MEMBER\n"
+                + "\nMETHOD 1 OUTPUT:\n"
+                + Instrument.getMoneyBackGuarantee()
+                + "\n\nMETHOD 2 OUTPUT:\n"
+                + Instrument.class;
 
 
 
