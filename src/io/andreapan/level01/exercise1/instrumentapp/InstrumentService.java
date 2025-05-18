@@ -28,19 +28,19 @@ public class InstrumentService {
         WindInstrument trumpet = new WindInstrument("Trumpet", 1000.00);
         WindInstrument ocarina = new WindInstrument("Ocarina", 67.34);
 
-        instruments.add(drums);
-        instruments.add(maracas);
-        instruments.add(violin);
-        instruments.add(harp);
-        instruments.add(trumpet);
-        instruments.add(ocarina);
+        this.instruments.add(drums);
+        this.instruments.add(maracas);
+        this.instruments.add(violin);
+        this.instruments.add(harp);
+        this.instruments.add(trumpet);
+        this.instruments.add(ocarina);
     }
 
     public String playInstrument() {
 
         String message = "";
 
-        for (Instrument instrument : instruments) {
+        for (Instrument instrument : this.instruments) {
 
             message += instrument.play() + "\n";
 
@@ -54,7 +54,7 @@ public class InstrumentService {
 
         String message = "";
 
-        for (Instrument instrument : instruments) {
+        for (Instrument instrument : this.instruments) {
 
             message += instrument.toString() + "\n\n";
 

@@ -10,32 +10,22 @@ public class InstrumentAppRunner {
 
         InstrumentService instrumentService = new InstrumentService();
 
-
-        message = "CLASS LOADED TRHOUGH INSTANCED OBJECT\n";
+        message = "CLASS LOADED THROUGH INSTANCED OBJECT\n";
 
         instrumentService.createInstrument();
 
         message += "\nInstruments playing:\n\n"
                 + instrumentService.playInstrument()
                 + "\n" + "\nList of instruments:\n\n"
-                + instrumentService.printInstruments();
+                + instrumentService.printInstruments()
 
-
-
-        message += "CLASS LOADED THROUGH ACCESSING A STATIC MEMBER\n"
+                + "CLASS LOADED THROUGH ACCESSING A STATIC MEMBER\n"
                 + "\nMETHOD 1 OUTPUT:\n"
                 + Instrument.getMoneyBackGuarantee()
                 + "\n\nMETHOD 2 OUTPUT:\n"
                 + Instrument.class;
 
-
-
-
-
-
-
         return message;
-
-                                                                                                                                                                                                                                                                                                                                                                                    }
+    }
 
 }
