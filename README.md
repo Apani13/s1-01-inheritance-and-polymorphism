@@ -1,5 +1,5 @@
 # s1-01-inheritance-and-polymorphism
-## 3.1-OOP and Java Basics
+## OOP and Java Basics
 
 🎶 **Java OOP Exercises – Music, Vehicles, Smartphones**
 
