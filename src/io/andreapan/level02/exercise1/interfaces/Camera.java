@@ -1,2 +1,7 @@
-package io.andreapan.level02.exercise1.interfaces;public interface Camera {
+package io.andreapan.level02.exercise1.interfaces;
+
+public interface Camera {
+
+    public String takePhoto();
+
 }
