@@ -8,13 +8,11 @@ public class PercussionInstrument extends Instrument {
     }
 
     @Override
-
     public String play() {
         return super.getName() + ": A percussion instrument is playing";
     }
 
     @Override
-
     public String toString() {
         return super.toString();
     }
