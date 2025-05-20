@@ -2,49 +2,24 @@ package io.andreapan.level01.exercise2.model;
 
 public class Car {
 
-    private static final String carBrand = "Toyota";
+    private static final String CAR_BRAND = "Toyota";
     private static String carModel;
-    private final int carPower = 220;
+    private final int CAR_POWER;
     private String carColor;
 
 
     public Car(String carColor) {
         this.carColor = carColor;
+        this.CAR_POWER = 220;
     }
 
     public Car(String carModel, String carColor) {
 
         this.carModel = carModel;
         this.carColor = carColor;
+        this.CAR_POWER = 220;
 
     }
-
-    /*
-        public String getCarBrand() {
-            return this.carBrand;
-        }
-        public String getCarModel() {
-            return this.cModel;
-        }
-
-        /*
-        public int getCarPower() {
-            return this.carPower;
-        }
-
-
-        public String getCarColor() {
-             return  this.carColor;
-        }
-
-        public void setCarModel(String carModel) {
-             this.carModel = carModel;
-        }
-
-        public void setCarColor(String carColor) {
-            this.carColor = carColor;
-         }
-    */
 
     public static String slowDown() {
         return "Car slowing down...";
@@ -57,9 +32,9 @@ public class Car {
     @Override
     public String toString() {
 
-        return "BRAND: " + this.carBrand
+        return "BRAND: " + this.CAR_BRAND
                 + "\nMODEL: " + this.carModel
-                + "\nPOWER: " + this.carPower
+                + "\nPOWER: " + this.CAR_POWER
                 +"\nCOLOR: " + this.carColor;
     }
 

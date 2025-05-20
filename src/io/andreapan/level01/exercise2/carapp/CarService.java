@@ -27,7 +27,8 @@ public class CarService {
 
         this.toyota3 = new Car("Corolla", "Ash grey");
 
-        message += ">>> STATE OF toyota1 AFTER CREATING toyota3 (changes static attribute):\n"
+        message += ">>> STATE OF toyota1 AFTER CREATING toyota3" +
+                " (overwrites static attribute value on all existing objects):\n"
                 + this.toyota1.toString() + "\n\n";
 
         return message;
