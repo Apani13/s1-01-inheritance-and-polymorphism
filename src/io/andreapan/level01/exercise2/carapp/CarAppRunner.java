@@ -24,8 +24,9 @@ public class CarAppRunner {
 
         message += "=== INVOKING STATIC ATTRIBUTE ===\n" + "\n\n";
 
-        message += "=== SHOWING STATIC VS FINAL ATTRIBUTES ===\n"
+        message += "=== SHOWING STATIC ATTRIBUTE BEHAVIOR ===\n"
                 + carService.simulateStaticAttributeOverwrite()
+
                 + ">>> LIST OF CARS:\n"
                 + carService.listCars();
 
