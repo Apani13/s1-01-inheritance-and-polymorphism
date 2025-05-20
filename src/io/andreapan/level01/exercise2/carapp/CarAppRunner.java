@@ -19,8 +19,13 @@ public class CarAppRunner {
         message += "=== INVOKING NON-STATIC METHOD ===\n"
                 + carService.speedUpCar(toyota1) + "\n\n";
 
+        message += "=== INVOKING NON-STATIC ATTRIBUTE ===\n";
+                //+ toyota1.
+
+        message += "=== INVOKING STATIC ATTRIBUTE ===\n" + "\n\n";
+
         message += "=== SHOWING STATIC VS FINAL ATTRIBUTES ===\n"
-                + carService.showStaticAndFinalProperties()
+                + carService.simulateStaticAttributeOverwrite()
                 + ">>> LIST OF CARS:\n"
                 + carService.listCars();
 

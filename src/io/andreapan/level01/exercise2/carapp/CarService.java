@@ -13,7 +13,7 @@ public class CarService {
         return this.toyota1 = new Car("Rav4", "Marine Blue");
     }
 
-    public String showStaticAndFinalProperties() {
+    public String simulateStaticAttributeOverwrite() {
 
         String message = "";
 
