@@ -16,19 +16,6 @@ public abstract class Instrument {
         return this.name;
     }
 
-    /*
-    public double getPrice() {
-        return this.price;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPrice(float price) {
-        this.price = price;
-    }
-    */
 
     public static String getMoneyBackGuarantee() {
         return "All our instruments have a 3 years money-back guarantee policy";
