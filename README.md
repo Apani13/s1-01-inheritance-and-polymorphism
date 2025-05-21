@@ -47,7 +47,6 @@ This repository contains a set of Java Object-Oriented Programming (OOP) exercis
 * Java
 * Eclipse or IntelliJ IDEA
 * GitHub
-* (Optional) Maven or Gradle for build automation
 
 📋 **Requirements**
 
@@ -60,11 +59,10 @@ This repository contains a set of Java Object-Oriented Programming (OOP) exercis
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-user/oop-java-exercises.git  
+   git clone https://github.com/Apani13/s1-01-inheritance-and-polymorphism.git 
    ```
 2. Open the project in your preferred IDE (Eclipse or IntelliJ).
-3. If using Maven or Gradle, import it accordingly. Otherwise, set it up as a plain Java project.
-4. Ensure your project SDK is set to Java 17+.
+3Ensure your project SDK is set to Java 17+.
 
 ▶️ **Execution**
 
@@ -75,16 +73,6 @@ This repository contains a set of Java Object-Oriented Programming (OOP) exercis
   java Main
   ```
 * Ensure the correct `main()` method is set as the entry point.
-
-🌐 **Deployment**
-This is an educational project and not intended for production deployment.
-However, to package the application as a `.jar` file:
-
-```bash
-javac Main.java
-jar cfe OOPExercises.jar Main *.class
-java -jar OOPExercises.jar
-```
 
 🤝 **Contributions**
 Contributions are welcome! Please follow these steps:
