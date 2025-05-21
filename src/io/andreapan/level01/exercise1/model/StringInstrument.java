@@ -9,7 +9,7 @@ public class StringInstrument extends Instrument {
 
     @Override
     public String play() {
-        return super.getName() + ": A string instrument ins playing";
+        return super.getName() + ": A string instrument is playing";
     }
 
     @Override
