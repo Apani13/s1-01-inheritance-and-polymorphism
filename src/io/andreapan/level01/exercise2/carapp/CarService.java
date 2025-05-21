@@ -49,4 +49,12 @@ public class CarService {
         return car.speedUp();
     }
 
+    public String demonstrateStaticAttributeAccess() {
+        return toyota1.getCarModel();
+    }
+
+    public String demonstrateNonStaticAttributeAccess() {
+        return toyota1.getCarColor();
+    }
+
 }

@@ -21,6 +21,16 @@ public class Car {
 
     }
 
+
+    public String getCarModel() {
+        return Car.carModel;
+    }
+
+    public String getCarColor() {
+        return this.carColor;
+    }
+
+
     public static String slowDown() {
         return "Car slowing down...";
     }
@@ -28,6 +38,7 @@ public class Car {
     public String speedUp() {
         return "Car speeding up...";
     }
+
 
     @Override
     public String toString() {
